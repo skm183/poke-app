@@ -14,9 +14,9 @@ function App() {
     <HashRouter>
       <Navbar/>
       <Routes>
-        <Route path='/poke-app' element={<Home/>} />
-        <Route path='/poke-app/quiz/' element={<Quiz/>} />
-        <Route path='/poke-app/pokedex/' element={<Pokedex/>} />
+        <Route path='/' element={<Home/>} />
+        <Route path='/quiz/' element={<Quiz/>} />
+        <Route path='/pokedex/' element={<Pokedex/>} />
       </Routes>
     </HashRouter>
     </>

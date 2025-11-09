@@ -10,7 +10,6 @@ function App() {
 
   return (
     <>
-    
     <BrowserRouter basename='/poke-app/'>
       <Navbar/>
       <Routes>

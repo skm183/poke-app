@@ -7,14 +7,19 @@ div.title {
 
 div.container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     padding: 10vh 20vh;
     gap: 5vh;
     align-items: center;
+    justify-content: space-evenly;
     height: 80vh;
     background-color: rgb(77, 77, 77);
     border-radius: 15px;
     margin: 1vh 5vw;
+}
+
+img.silhouette {
+    filter: grayscale(100%) brightness(0);
 }
 
